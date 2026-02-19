@@ -5,7 +5,7 @@ function welcome(name: string) {
     };
     //user['name']
     user.name;
-    return name;
+    return name + user.name;
 }
 
 welcome('Akash');
