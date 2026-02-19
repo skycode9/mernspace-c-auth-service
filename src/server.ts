@@ -1,5 +1,6 @@
 function welcome(name: string) {
     console.log('Welcome', name);
+    console.log('Check lint');
     const user = {
         name: 'sky',
     };
