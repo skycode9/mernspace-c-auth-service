@@ -4,8 +4,8 @@ function welcome(name: string) {
         name: 'sky',
     };
     //user['name']
-    user.name;
-    return name + user.name;
+    const u1 = user.name;
+    return name + u1;
 }
 
 welcome('Akash');
