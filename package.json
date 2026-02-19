@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/skycode9/mernspace-c-auth-service/issues"
   },
-  "homepage": "https://github.com/skycode9/mernspace-c-auth-service#readme"
+  "homepage": "https://github.com/skycode9/mernspace-c-auth-service#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
 }
