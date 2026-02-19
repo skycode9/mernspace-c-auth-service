@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node src/server.ts",
+    "format:fix": "npx prettier . --write",
+    "format:check": "npx prettier . --check",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/skycode9/mernspace-c-auth-service#readme",
   "devDependencies": {
     "@types/node": "^25.3.0",
+    "prettier": "3.8.1",
     "typescript": "^5.9.3"
   }
 }
