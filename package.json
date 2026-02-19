@@ -1,29 +1,34 @@
 {
-  "name": "auth-service",
-  "version": "1.0.0",
-  "description": "User management",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.ts",
-    "format:fix": "npx prettier . --write",
-    "format:check": "npx prettier . --check",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/skycode9/mernspace-c-auth-service.git"
-  },
-  "keywords": [],
-  "author": "skycode<skycode9005@gmail.com>",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/skycode9/mernspace-c-auth-service/issues"
-  },
-  "homepage": "https://github.com/skycode9/mernspace-c-auth-service#readme",
-  "devDependencies": {
-    "@types/node": "^25.3.0",
-    "prettier": "3.8.1",
-    "typescript": "^5.9.3"
-  }
+    "name": "auth-service",
+    "version": "1.0.0",
+    "description": "User management",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/server.ts",
+        "format:fix": "npx prettier . --write",
+        "format:check": "npx prettier . --check",
+        "lint:fix": "npx eslint . --fix",
+        "lint:check": "npx eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/skycode9/mernspace-c-auth-service.git"
+    },
+    "keywords": [],
+    "author": "skycode<skycode9005@gmail.com>",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/skycode9/mernspace-c-auth-service/issues"
+    },
+    "homepage": "https://github.com/skycode9/mernspace-c-auth-service#readme",
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^25.3.0",
+        "eslint": "^10.0.0",
+        "prettier": "3.8.1",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.56.0"
+    }
 }
