@@ -19,7 +19,7 @@
     "keywords": [],
     "author": "skycode<skycode9005@gmail.com>",
     "license": "ISC",
-    "type": "commonjs",
+    "type": "module",
     "bugs": {
         "url": "https://github.com/skycode9/mernspace-c-auth-service/issues"
     },
@@ -39,5 +39,8 @@
             "npm run format:fix",
             "npm run lint:fix"
         ]
+    },
+    "dependencies": {
+        "dotenv": "^17.3.1"
     }
 }
