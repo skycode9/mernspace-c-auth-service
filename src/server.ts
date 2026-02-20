@@ -6,7 +6,6 @@ const startServer = () => {
     try {
         const PORT = Config.PORT;
         app.listen(PORT, () => {
-            logger.error('testing error');
             logger.info(`Server listening on PORT ${PORT}`);
         });
     } catch (error) {

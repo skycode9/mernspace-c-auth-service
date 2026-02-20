@@ -16,7 +16,7 @@ const logger = winston.createLogger({
                 winston.format.timestamp(),
                 winston.format.prettyPrint(),
             ),
-            silent: Config.NODE_ENV == 'development',
+            //silent: Config.NODE_ENV == 'development',
         }),
         new winston.transports.File({
             level: 'info',
