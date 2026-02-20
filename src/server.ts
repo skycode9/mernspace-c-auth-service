@@ -1,13 +1,13 @@
 import app from './app.js';
 import { Config } from './config/index.js';
-
-console.log(Config.PORT);
+import logger from './config/logger.js';
 
 const startServer = () => {
     try {
         const PORT = Config.PORT;
         app.listen(PORT, () => {
-            console.log(`Server listining on PORT ${PORT}`);
+            logger.error('testing error');
+            logger.info(`Server listening on PORT ${PORT}`);
         });
     } catch (error) {
         console.error('Error while start server ', error);
